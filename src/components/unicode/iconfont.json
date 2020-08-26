@@ -1,0 +1,44 @@
+{
+  "id": "1995340",
+  "name": "iconDemo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "图标",
+  "glyphs": [
+    {
+      "icon_id": "11758479",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "16290359",
+      "name": "创建&添加&批量添加",
+      "font_class": "chuangjiantianjiapiliangtianjia",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "11474203",
+      "name": "auto",
+      "font_class": "auto",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "11474219",
+      "name": "all",
+      "font_class": "all",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "11474220",
+      "name": "bussiness-man",
+      "font_class": "bussiness-man",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    }
+  ]
+}
