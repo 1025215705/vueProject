@@ -1,4 +1,5 @@
 <template>
+<div>
   <div id="app">
         <router-link to="/HelloWorld">HelloWorld</router-link>
          <br>
@@ -7,8 +8,14 @@
           <router-link to="/symbol2">阿里图标symbol引用2号</router-link>
          <br>
          <router-link to="/unicode">阿里图标unicode引用</router-link>
-        <router-view></router-view>
+         <br>
+          <router-link to="/masonry">瀑布流 Multi-columns实现方式</router-link>
+         <br>
+        <router-link to="/flexbox">瀑布流 flexbox实现方式</router-link>
+         <br>
   </div>
+  <router-view />
+</div>
 </template>
 <script>
 export default {
