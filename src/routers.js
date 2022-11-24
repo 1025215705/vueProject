@@ -9,6 +9,8 @@ import waterDemo from "@/components/masonry/waterDemo.vue";
 import highlight from "@/components/highlight/index.vue";
 import vue2AceEditor from "@/components/vue2AceEditor/index";
 import monacoEditor from "@/components/monacoEditor/index";
+import grid from "@/components/grid/index";
+import postcssPtoViewport from "@/components/postcssPtoViewport/index"
 const routers = [{
     path: '/HelloWorld',
     name: 'HelloWorld',
@@ -62,6 +64,16 @@ const routers = [{
     path: "/monacoEditor",
     name: "monacoEditor",
     component: monacoEditor
+  },
+  {
+    path: "/grid",
+    name: "grid",
+    component: grid
+  },
+  {
+    path: "/postcssPtoViewport",
+    name: "postcssPtoViewport",
+    component: postcssPtoViewport
   }
 ]
 export default routers
